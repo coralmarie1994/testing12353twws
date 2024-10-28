@@ -1,0 +1,121 @@
+body {
+    text-align:center;
+    background: black;
+    background-image: url("images/waves.webp");
+    background-size:cover;
+    font-family:Serif;
+    color:whitesmoke;
+}
+.header {
+display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#Mumpic{
+    width:200px;
+    border-radius:50%;
+    border:6px solid #219ebc;
+}
+
+@font-face {
+    font-family:'balloons';
+    src: url(FONT\ BALLOON.ttf);
+}
+
+.birthdaymessage{
+    font-size: 100px;
+    color:whitesmoke; 
+    font-family:balloons;
+    text-shadow: 1px 1px 4px black;
+
+}
+
+.changeteal {
+    color:whitesmoke;
+    transition: all 2s ease-in-out;
+}
+
+.changeteal:hover{
+    color: #00b4d8;
+}
+
+#note{    
+    background:black;
+    padding: 10px 30px;
+    border-radius:100px;
+    color:#caf0f8
+}
+#date {
+    
+    background:black;
+    padding: 5px 20px;
+    border-radius:100px;
+    color:#caf0f8;
+}
+
+.giftboxes {
+    margin-top:50px;
+}
+
+.gift-title {
+margin-top:100px;
+}
+
+.gift-hint {
+    margin-top:10px;
+
+}
+
+.gift-img {
+    
+    margin: 0 auto;
+    width: 350px;
+    height:350px;
+    background-image: url("images/giftbox.png");
+    background-size: cover;
+    border: 4px solid white; 
+    border-radius: 20px;
+}
+
+#gift1:hover {
+    background-image: url("images/gift1open.webp");
+}
+
+#gift2:hover {
+    background-image: url("images/gift2open.webp");
+}
+
+#gift3:hover {
+    background-image: url("images/gift3open.webp");
+}
+
+.cheers-img {
+    
+    margin: 0 auto;
+    width: 350px;
+    height:230px;
+    padding-top:10px;
+    margin-top:30px;
+    background-image: url("images/cheers-img.png");
+    background-size:cover;
+    border: 4px solid white; 
+    border-radius: 20px;
+}
+
+.cheers-img:hover {
+        background-image: url("images/toast-img.webp");
+    }
+
+#footer {
+    width:400px;
+    margin: 20px auto 40px;
+    font-style: italic;
+}
+
+a{
+    color:white;
+}
+
+h3:hover {
+    color:goldenrod;
+}
